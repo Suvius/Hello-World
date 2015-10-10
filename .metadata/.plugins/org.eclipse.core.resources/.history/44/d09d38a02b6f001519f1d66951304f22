@@ -1,0 +1,10 @@
+
+public class Hola {
+	public static void main(String[] args){
+		for(int i = 0; i<2000; i++){ // Two thousand loops, because why not.
+			if(i%3 == 3){ // do something every third tick, in theory.
+				System.out.println(i); // Code changes, whoo!
+			}
+		}
+	}
+}
