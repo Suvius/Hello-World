@@ -1,6 +1,8 @@
 
 public class Hola {
 	public static void main(String[] args){
-		System.out.println("Hello world! I am testing Github.");
+		for(int i = 0; i<2000; i++){ // Two thousand loops, because why not.
+			System.out.println(i); // Code changes, whoo!
+		}
 	}
 }
